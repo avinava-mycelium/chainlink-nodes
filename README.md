@@ -29,9 +29,7 @@ node_name = <node_name>
 node_type = <node-type>
 ``` 
 > Create a bash file in this format "<node_name>-<node_type>-startup.sh".
-
 > Add your application code here. For reference check files [here](https://console.cloud.google.com/storage/browser/myc-node/cl/cl-metadata-script).
-
 > Upload the file in the above bucket.Check the **gsutil URI**. It will read something like this : **gs://myc-node/cl/cl-metadata-script/xdai-fm-startup.sh**
 
 - Keep **outputs.tf** , **provider.tf** , **variables.tf** files as is.

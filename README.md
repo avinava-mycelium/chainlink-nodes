@@ -4,7 +4,9 @@ This repository contains IAC code to setup chainlink nodes and relevant resource
 
 ## Usage
 
-See the [simple](https://github.com/terraform-google-modules/terraform-google-vm/tree/master/examples/compute_instance/simple) for a usage example.
+See the [module](https://github.com/avinava-mycelium/terraform-gcp-chainlinknode) for the source terraform repository
+
+Check Terraform registry [chainlinknode](https://registry.terraform.io/modules/avinava-mycelium/chainlinknode/gcp/1.0.1) for Provision Instructions.
 
 ## Testing
 

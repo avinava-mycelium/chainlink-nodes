@@ -28,9 +28,10 @@ Install [terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 node_name = <node_name>
 node_type = <node-type>
 ``` 
-> Create a bash file in this format "<node_name>-<node_type>-startup.sh"
-> Add your application code here. For reference check files [here](https://console.cloud.google.com/storage/browser/myc-node/cl/cl-metadata-script)
+> Create a bash file in this format "<node_name>-<node_type>-startup.sh".
+> Add your application code here. For reference check files [here](https://console.cloud.google.com/storage/browser/myc-node/cl/cl-metadata-script).
 > Upload the file in the above bucket.Check the **gsutil URI**. It will read something like this : **gs://myc-node/cl/cl-metadata-script/xdai-fm-startup.sh**
+
 - Keep **outputs.tf** , **provider.tf** , **variables.tf** files as is.
 - Thats it!
 
@@ -38,12 +39,22 @@ Initialise your terraform in the respective folder.
 ```sh
 terraform init
 ```
-Run **terraform plan** to check the execution flow.
-Once satisfied , run **terraform apply --auto-approve**
+Run to check the execution flow.
+```sh
+terraform plan
+``` 
+
+Once satisfied , apply to start the execution
+ ```sh 
+terraform apply --auto-approve
+```
 
 ## To destroy a node
 
-- Run **terraform destroy** to check what all resources will be destroyed.
+- Run to check what all resources will be destroyed.
+```sh 
+terraform destroy 
+``` 
 - Once happy you can enter **yes** and the node with its associated resources will be deleted
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->

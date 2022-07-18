@@ -4,7 +4,7 @@ This repository contains IAC code to setup chainlink nodes and relevant resource
 
 ## Usage
 
-See the [module](https://github.com/avinava-mycelium/terraform-gcp-chainlinknode) for the source terraform repository
+See the [github-module](https://github.com/avinava-mycelium/terraform-gcp-chainlinknode) for the source terraform repository
 
 Check Terraform registry [chainlinknode](https://registry.terraform.io/modules/avinava-mycelium/chainlinknode/gcp/1.0.1) for Provision Instructions.
 

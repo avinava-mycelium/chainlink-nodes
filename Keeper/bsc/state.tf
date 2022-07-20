@@ -1,6 +1,6 @@
 terraform {
     backend "gcs" {
       bucket  = "myc-node"
-      prefix  = "cl/bsc-keeper.tfstate"
+      prefix  = "cl/bsc-kpr.tfstate"
     }
   }

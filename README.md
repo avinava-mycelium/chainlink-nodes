@@ -62,8 +62,8 @@ terraform destroy
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| region | Region where the instances should be created. | `string` | `` | yes |
-| zone | Zone where the instances should be created. If not specified, instances will be spread across available zones in the region. | `string` | `` | yes |
+| region | Region where the instances should be created. | `string` | `` | no |
+| zone | Zone where the instances should be created. If not specified, instances will be spread across available zones in the region. | `string` | `` | no |
 | machine\_type | Machine configuration for CPU and Memory. | `string` | `` | yes |
 | node\_name | Name of CL node. | `string` | `` | yes |
 | node\_type | Type of CL node. | `string` | `` | yes |

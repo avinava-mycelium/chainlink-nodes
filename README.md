@@ -78,6 +78,7 @@ terraform destroy
 | disk\_size | The disk size allocated to the node |
 | gcs\_startup\_script | The private bucket location for the startup script of the node |
 | external\_ip\_addresses | The public IP address of the node |
+| external\_ip\_names | The public static IP names of the node |
 | internal\_ip\_addresses | The internal static IP address of the node |
 | internal\_ip\_names | The internal static IP names of the node |
 

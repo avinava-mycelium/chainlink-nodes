@@ -23,6 +23,11 @@ output "external_ip_addresses" {
   value = module.chainlinknode.external_ip_addresses
 }
 
+output "external_ip_names" {
+  description = "The public static IP names of the node"
+  value = module.chainlinknode.external_ip_names
+}
+
 output "internal_ip_addresses" {
   description = "The internal static IP address of the node"
   value = module.chainlinknode.internal_ip_addresses

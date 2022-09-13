@@ -6,4 +6,5 @@ module "chainlinknode" {
   machine_type = var.machine_type
   node_name = var.node_name
   node_type = var.node_type
+  boot_disk_size = var.boot_disk_size
 }

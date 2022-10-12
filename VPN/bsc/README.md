@@ -1,7 +1,7 @@
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
-No requirements.
+This repository contains IAC code to setup BSC VPN CL node and its relevant resources in GCP
 
 ## Providers
 

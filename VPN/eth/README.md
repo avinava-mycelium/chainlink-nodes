@@ -25,7 +25,6 @@ No resources.
 | <a name="input_boot_disk_size"></a> [boot\_disk\_size](#input\_boot\_disk\_size) | n/a | `any` | n/a | yes |
 | <a name="input_machine_type"></a> [machine\_type](#input\_machine\_type) | n/a | `any` | n/a | yes |
 | <a name="input_network_tag"></a> [network\_tag](#input\_network\_tag) | n/a | `any` | n/a | yes |
-| <a name="input_node_count"></a> [node\_count](#input\_node\_count) | n/a | `any` | n/a | yes |
 | <a name="input_node_name"></a> [node\_name](#input\_node\_name) | n/a | `any` | n/a | yes |
 | <a name="input_node_type"></a> [node\_type](#input\_node\_type) | n/a | `any` | n/a | yes |
 | <a name="input_project_id"></a> [project\_id](#input\_project\_id) | n/a | `any` | n/a | yes |

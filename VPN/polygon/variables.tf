@@ -4,4 +4,4 @@ variable "node_type" {}
 variable "project_id" {}
 variable "boot_disk_size" {}
 variable "network_tag" {}
-variable "node_count" {}
+variable "subnetwork" {}

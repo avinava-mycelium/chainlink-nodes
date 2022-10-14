@@ -8,5 +8,5 @@ module "chainlinknode" {
   node_type = var.node_type
   boot_disk_size = var.boot_disk_size
   network_tag = var.network_tag
-  node_count = var.node_count
+  subnetwork = var.subnetwork
 }

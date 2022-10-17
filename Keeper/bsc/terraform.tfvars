@@ -1,4 +1,4 @@
-machine_type = "n1-standard-1"
+machine_type = "e2-micro"
 node_name = "bsc"
 node_type = "kpr"
 project_id = "avian-direction-235610"

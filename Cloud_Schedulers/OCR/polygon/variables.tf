@@ -13,6 +13,9 @@ variable "project_id" {
 variable "region" {
   default = "us-central1"
 }
+variable "zone" {
+  default = "us-central1-a"
+}
 variable "scheduler_job_description" {
   default = "node reboot"
 }
@@ -45,9 +48,6 @@ variable "http_method" {
 }
 variable "User-Agent" {
   default = "Google-Cloud-Scheduler"
-}
-variable "uri" {
-  default = "https://compute.googleapis.com/compute/v1/projects/avian-direction-235610/zones/us-central1-a/instances/cl-polygon-ocr-1/reset"
 }
 variable "scope" {
   default = "https://www.googleapis.com/auth/cloud-platform"

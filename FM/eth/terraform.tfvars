@@ -1,4 +1,4 @@
-machine_type = "e2-micro"
+machine_type = "e2-small"
 node_name = "eth"
 node_type = "fm"
 project_id = "avian-direction-235610"

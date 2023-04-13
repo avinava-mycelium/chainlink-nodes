@@ -3,3 +3,6 @@ provider "google" {
   credentials = file("../../../service_account.json")
   region = var.region
 }
+terraform {
+  required_version = "0.13.0"
+}

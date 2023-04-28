@@ -4,3 +4,5 @@
 *.json
 .terraform
 *.toml
+*.txt
+.vscode

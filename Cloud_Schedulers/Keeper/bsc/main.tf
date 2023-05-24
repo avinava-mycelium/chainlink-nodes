@@ -18,7 +18,7 @@ resource "google_cloud_scheduler_job" "job" {
     headers = {
       "User-Agent" = var.User-Agent
     }
-    uri         = var.uri
+    uri         = "https://compute.googleapis.com/compute/v1/projects/${var.project_id}/zones/${var.zone}/instances/${var.node_name}/reset"
     oauth_token {
       service_account_email = data.google_secret_manager_secret_version.sa.secret_data // Service account details pulled from secrets manager
       scope = var.scope

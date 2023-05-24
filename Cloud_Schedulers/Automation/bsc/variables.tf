@@ -8,10 +8,13 @@ variable "service_account_version" {
 }
 variable "project_id" {
   description = "The gcp project ID where the resources need to be deployed"
-  default = "avian-direction-235610"
+  default     = "avian-direction-235610"
 }
 variable "region" {
   default = "us-central1"
+}
+variable "zone" {
+  default = "us-central1-a"
 }
 variable "scheduler_job_description" {
   default = "node reboot"

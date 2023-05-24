@@ -1,6 +1,6 @@
 terraform {
     backend "gcs" {
       bucket  = "myc-node"
-      prefix  = "cl/cloud-schedulers/FM/arbitrum-ocr.tfstate"
+      prefix  = "cl/cloud-schedulers/OCR/arbitrum-ocr.tfstate"
     }
   }

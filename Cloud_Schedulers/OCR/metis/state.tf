@@ -1,6 +1,6 @@
 terraform {
     backend "gcs" {
       bucket  = "myc-node"
-      prefix  = "cl/cloud-schedulers/FM/metis-ocr.tfstate"
+      prefix  = "cl/cloud-schedulers/OCR/metis-ocr.tfstate"
     }
   }

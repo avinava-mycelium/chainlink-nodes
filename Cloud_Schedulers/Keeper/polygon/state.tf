@@ -1,6 +1,6 @@
 terraform {
     backend "gcs" {
       bucket  = "myc-node"
-      prefix  = "cl/cloud-schedulers/FM/polygon-kpr.tfstate"
+      prefix  = "cl/cloud-schedulers/Keeper/polygon-kpr.tfstate"
     }
   }

@@ -1,6 +1,6 @@
 terraform {
     backend "gcs" {
       bucket  = "myc-node"
-      prefix  = "cl/cloud-schedulers/FM/polygon-vpn.tfstate"
+      prefix  = "cl/cloud-schedulers/VPN/polygon-vpn.tfstate"
     }
   }
